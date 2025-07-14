@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Secrets of the Tiny Dragon</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="scene">
+    <h1>Secrets of the Tiny Dragon 🐉</h1>
+    <p id="statusText">Oreo stands atop Regine’s journal, fierce and fluffy.</p>
+
+    <div class="game-area">
+      <!-- Interactive Items -->
+      <div class="item" onclick="offerSlippers()">🧦 Slippers</div>
+      <div class="item" onclick="giveSnack()">🐟 Tuna Snack</div>
+      <div class="item" onclick="offerToy()">🧶 Yarn Mouse</div>
+
+      <!-- Oreo the Cat -->
+      <div class="oreo" onclick="petOreo()">🐱 Oreo</div>
+    </div>
+
+    <!-- Journal Reveal -->
+    <div id="journal" onclick="openJournal()">📖 Regine’s Journal</div>
+
+    <!-- Footer or Transition Link -->
+    <p class="footer">A cozy side quest made with ❤️ by Alexis</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
