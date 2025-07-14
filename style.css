@@ -1,0 +1,62 @@
+body {
+  background-color: #fffaf3;
+  font-family: 'Courier New', monospace;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.scene {
+  padding: 30px;
+  max-width: 700px;
+  margin: auto;
+  border-radius: 20px;
+  background-color: #ffeedd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.1rem;
+}
+
+.game-area {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.item, .oreo, #journal {
+  width: 120px;
+  padding: 15px;
+  margin: 10px;
+  border: 2px dashed #5a4b3d;
+  border-radius: 15px;
+  background-color: #fff;
+  cursor: pointer;
+  transition: transform 0.2s, background-color 0.3s;
+  text-align: center;
+}
+
+.item:hover, .oreo:hover, #journal:hover {
+  transform: scale(1.08);
+  background-color: #ffdca8;
+}
+
+#journal {
+  display: none;
+  background-color: #ffd0f0;
+  border-color: #a84ba8;
+}
+
+.footer {
+  margin-top: 30px;
+  font-size: 0.9rem;
+  font-style: italic;
+  color: #777;
+}
